@@ -39,7 +39,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [x86_64,phicomm-k2p,redmi-ac2100,nanopi-r2s]
+        target: [x86_64,phicomm-k2p,redmi-ac2100,nanopi-r2s,hiwifi-hc5962,XY-C5,phicomm-N1]
         
     steps:
     - name: Checkout
